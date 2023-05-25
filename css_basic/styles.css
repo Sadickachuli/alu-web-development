@@ -1,0 +1,41 @@
+body {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	background-color: rgb(23, 189, 255);	
+}
+
+main {
+	display: flex;
+        background-color: rgb(23, 189, 255);
+	flex-direction: row;
+	flex: auto;
+}
+
+article {
+	flex: 2;
+	color: white;
+        background-color: rgb(23, 189, 255);
+	color: white;
+	overflow-y: auto;
+}
+
+aside {
+	flex: 1;
+	color: white;
+        background-color: rgb(23, 189, 255);
+	overflow-y: auto;
+}
+
+button {
+        background-color: white;
+        color: red;;
+        border-color: rgb(23, 189, 255);
+        height: 36px;
+        border-style: solid;
+        font-weight: bold;
+        border-width: 2px;
+        width: 50px;
+        border-radius: 4px;
+        cursor: pointer;
+}
