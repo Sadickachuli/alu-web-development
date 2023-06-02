@@ -27,6 +27,7 @@ header .navigations {
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
+    margin-left: 20px;
     text-transform: uppercase;
     z-index: 1;
     display: flex;
@@ -40,16 +41,16 @@ header .navigations a {
     color: white;
 }
 
-.header {
+.header-section {
     left: 20%;
     right: 20%;
     display: flex;
     flex-direction: column;
-    margin-bottom: -2.6rem;
+    margin-bottom: -2.5rem;
     background-blend-mode: color;
     background: rgba(0, 0, 0, 1);
     background: radial-gradient(85.9% 85.9% at 50% 14.1%,
-            rgba(41, 48, 61, 0.0001) 0%,
+            rgba(54, 63, 78, 0) 0%,
             #071629 100%);
     color: white;
 }
@@ -100,8 +101,13 @@ header .navigations a {
 
 .teachers-title {
     color: #c271ff;
+    margin-top: 300px;
+    padding-right: 0px;
 }
 
+.smile-text {
+    width:10px;
+}
 .popular {
     color: #c271ff;    
 }
@@ -124,6 +130,9 @@ header .navigations a {
     font-weight: bolder;
 }
 
+.first-title {
+    align-self: center;
+}
 .teachers-block {
     display: flex;
     flex-direction: row;
@@ -208,6 +217,15 @@ main {
     margin-top: 0;
 }
 
+.quote-author {
+    width: 40px;
+    border-radius: 100px;
+}
+
+.text {
+    font-weight: 100;
+}
+
 .videos-section {
     display: flex;
     flex-direction: column;
@@ -262,14 +280,23 @@ main {
 .video-info .video-description {
     font-weight: 400;
     font-size: 14px;
+    width: 250px;
     line-height: 24px;
     color: rgba(7, 22, 41, 0.501584);
 }
 
 .video-info .play {
     position: relative;
-    top: -23%;
+    top: -5%;
     left: 33%;
+}
+
+.video-uploader-name {
+    color: #c271ff; 
+}
+
+.stars {
+    width: 200px;
 }
 
 .video-info .video-uploader {
@@ -281,6 +308,7 @@ main {
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    vertical-align: top;
 }
 
 .uploader h3 {
@@ -300,12 +328,13 @@ main {
 .time {
     font-weight: 600;
     font-size: 14px;
+    width: 150px;
     line-height: 27px;
     text-align: right;
     color: #c271ff;
 }
 
-.membership-section {
+.membership-section .videos-section {
     color: white;
     background: #071629;
     padding: 2rem;
