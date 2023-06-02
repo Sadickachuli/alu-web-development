@@ -1,0 +1,17 @@
+.logo {
+    background-color: black;
+    display: inline-block;
+}
+.navigations {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 950px;
+}
+.smiles {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+.smilesimages {
+    border-radius: 90px;
+}
